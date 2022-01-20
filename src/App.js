@@ -1,24 +1,22 @@
-import logo from './logo.svg';
+// import Form from "./component/Form.js";
 import './App.css';
-
+// import Modal from "./component/Modal.js"
+// import {useState} from "react";
+// import Instructions from './component/Instructions';
+// import Test from './component/test';
+//import DataFetch from './component/DataFetch.js';
+import Parent from './component/Parent.js'
 function App() {
+  //const [show, setShow]=useState(false)
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    // <div className="App">
+    //   <h2>Perennia</h2>
+    //   <Form setShow={setShow}/>
+    //   <Modal show={show}/>
+    // </div>
+    
+     <Parent/>
+  
   );
 }
 
